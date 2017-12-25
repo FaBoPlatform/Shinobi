@@ -1071,6 +1071,8 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <part name="SJ2" library="FaBo-Supply" deviceset="SMD-JUMPER-2" device="-SHORT" value="PS_SELECT"/>
 <part name="VIN2" library="FaBo-Supply" deviceset="VIN" device=""/>
 <part name="VOUT3" library="FaBo-Supply" deviceset="VOUT" device=""/>
+<part name="R6" library="FaBo-Resistors" deviceset="RESISTOR" device="-0603-NARROW" value="0"/>
+<part name="GND12" library="FaBo-Supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1112,6 +1114,8 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <instance part="SJ2" gate="G$1" x="73.66" y="137.16"/>
 <instance part="VIN2" gate="G$1" x="203.2" y="76.2"/>
 <instance part="VOUT3" gate="G$1" x="83.82" y="53.34"/>
+<instance part="R6" gate="G$1" x="73.66" y="116.84" rot="R90"/>
+<instance part="GND12" gate="G$1" x="73.66" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -1205,6 +1209,11 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="G$1" pin="GND"/>
 <wire x1="190.5" y1="134.62" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="G$1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="106.68" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1329,6 +1338,8 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <wire x1="104.14" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="127" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="121.92" x2="73.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
