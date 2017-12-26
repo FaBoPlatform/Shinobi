@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -738,95 +739,6 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="FaBo-Transistor">
-<packages>
-<package name="AOD417">
-<smd name="D" x="0" y="2.1" dx="4.82" dy="4.2" layer="1"/>
-<smd name="G" x="-2.286" y="-4.1" dx="3" dy="1.6" layer="1" rot="R90"/>
-<smd name="S" x="2.286" y="-4.1" dx="3" dy="1.6" layer="1" rot="R90"/>
-<wire x1="-3.3" y1="3.81" x2="3.3" y2="3.81" width="0.127" layer="21"/>
-<wire x1="3.3" y1="3.81" x2="3.3" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-2.54" x2="-3.3" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-2.54" x2="-3.3" y2="3.81" width="0.127" layer="21"/>
-<text x="-1.44" y="-1.77" size="0.6096" layer="21">AOD417</text>
-<text x="3.9" y="2.3" size="1.27" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AOD417">
-<pin name="D" x="-7.62" y="0" visible="pad" length="short"/>
-<pin name="S" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.15" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.15" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.15" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="0.508" y2="2.54" width="0.15" layer="94"/>
-<wire x1="0.508" y1="2.54" x2="5.08" y2="2.54" width="0.15" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.15" layer="94"/>
-<wire x1="0.508" y1="2.54" x2="-0.254" y2="1.778" width="0.15" layer="94"/>
-<wire x1="-0.254" y1="1.778" x2="-0.254" y2="3.302" width="0.15" layer="94"/>
-<wire x1="-0.254" y1="3.302" x2="0.508" y2="2.54" width="0.15" layer="94"/>
-<wire x1="-0.1778" y1="3.0734" x2="-0.1778" y2="1.9812" width="0.15" layer="94"/>
-<wire x1="-0.1778" y1="1.9812" x2="0.3556" y2="2.5146" width="0.15" layer="94"/>
-<wire x1="0.3556" y1="2.5146" x2="0.3556" y2="2.5654" width="0.15" layer="94"/>
-<wire x1="0.3556" y1="2.5654" x2="-0.0762" y2="2.9972" width="0.15" layer="94"/>
-<wire x1="-0.0762" y1="2.9972" x2="-0.0762" y2="2.2606" width="0.15" layer="94"/>
-<wire x1="-0.0762" y1="2.2352" x2="-0.0762" y2="2.2606" width="0.15" layer="94"/>
-<wire x1="-0.0762" y1="2.2606" x2="0.254" y2="2.5908" width="0.15" layer="94"/>
-<wire x1="0.254" y1="2.5908" x2="0.1524" y2="2.5908" width="0.15" layer="94"/>
-<wire x1="0.1524" y1="2.5908" x2="0" y2="2.7432" width="0.15" layer="94"/>
-<wire x1="0" y1="2.7432" x2="0" y2="2.5654" width="0.15" layer="94"/>
-<wire x1="0" y1="2.5654" x2="0" y2="2.4892" width="0.15" layer="94"/>
-<wire x1="0" y1="2.4892" x2="0.0254" y2="2.4638" width="0.15" layer="94"/>
-<wire x1="0.0254" y1="2.4638" x2="0.0508" y2="2.4638" width="0.15" layer="94"/>
-<wire x1="0.0508" y1="2.4638" x2="0.1524" y2="2.5654" width="0.15" layer="94"/>
-<wire x1="0.1524" y1="2.5654" x2="0" y2="2.5654" width="0.15" layer="94"/>
-<wire x1="0.508" y1="3.302" x2="0.508" y2="1.778" width="0.15" layer="94"/>
-<wire x1="-3.048" y1="-2.54" x2="-2.032" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="2.032" y1="-2.54" x2="3.048" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="-0.508" y1="-2.54" x2="0" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0.508" y2="-2.54" width="0.15" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="0" width="0.15" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.15" layer="94"/>
-<wire x1="0.0254" y1="-0.1016" x2="-0.3302" y2="-0.4572" width="0.15" layer="94"/>
-<wire x1="-0.3302" y1="-0.4572" x2="0.3556" y2="-0.4572" width="0.15" layer="94"/>
-<wire x1="0.3556" y1="-0.4572" x2="0.0254" y2="-0.127" width="0.15" layer="94"/>
-<wire x1="0.0254" y1="-0.127" x2="0.0254" y2="-0.2286" width="0.15" layer="94"/>
-<wire x1="0.0254" y1="-0.2286" x2="-0.127" y2="-0.381" width="0.15" layer="94"/>
-<wire x1="-0.127" y1="-0.381" x2="0.127" y2="-0.381" width="0.15" layer="94"/>
-<wire x1="0.127" y1="-0.381" x2="0.127" y2="-0.3048" width="0.15" layer="94"/>
-<wire x1="0.127" y1="-0.3048" x2="0.0762" y2="-0.254" width="0.15" layer="94"/>
-<wire x1="0.0762" y1="-0.254" x2="0.127" y2="-0.254" width="0.15" layer="94"/>
-<wire x1="0.127" y1="-0.254" x2="0.254" y2="-0.381" width="0.15" layer="94"/>
-<wire x1="-3.048" y1="-3.302" x2="2.5654" y2="-3.2766" width="0.15" layer="94"/>
-<wire x1="2.5654" y1="-3.2766" x2="2.54" y2="-5.0546" width="0.15" layer="94"/>
-<pin name="G" x="2.54" y="-7.62" visible="off" length="short" rot="R90"/>
-<text x="-6.5278" y="-1.9812" size="1.27" layer="94">D</text>
-<text x="5.207" y="-1.7526" size="1.27" layer="94">S</text>
-<text x="0.0508" y="-7.1882" size="1.27" layer="94">G</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AOD417" prefix="M" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="AOD417" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="AOD417">
-<connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="FaBo-Parts">
 <description>&lt;h3&gt;FaBo Parts&lt;/h3&gt;
 Parts&lt;br&gt;
@@ -1040,7 +952,6 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <part name="BAT" library="FaBo-Template" deviceset="FABO_BRICK_2PIN" device="_SIDE"/>
 <part name="U$4" library="FaBo-etc" deviceset="A4L-LOC" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="M1" library="FaBo-Transistor" deviceset="AOD417" device=""/>
 <part name="P4" library="FaBo-Supply" deviceset="DC-JACK" device="MA04339A0"/>
 <part name="P1" library="FaBo-Supply" deviceset="POLYSWITCH" device="1210"/>
 <part name="IC1" library="FaBo-Supply" deviceset="TPS63000" device="DRC"/>
@@ -1083,7 +994,6 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <instance part="BAT" gate="G$1" x="71.12" y="38.1"/>
 <instance part="U$4" gate="G$1" x="0" y="0"/>
 <instance part="GND4" gate="1" x="172.72" y="43.18"/>
-<instance part="M1" gate="G$1" x="190.5" y="60.96"/>
 <instance part="P4" gate="G$1" x="149.86" y="58.42"/>
 <instance part="P1" gate="G$1" x="172.72" y="60.96"/>
 <instance part="IC1" gate="G$1" x="132.08" y="134.62"/>
@@ -1130,13 +1040,9 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="172.72" y1="58.42" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="55.88" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="M1" gate="G$1" pin="G"/>
-<wire x1="193.04" y1="53.34" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P4" gate="G$1" pin="GNDBREAK"/>
 <pinref part="P4" gate="G$1" pin="GND"/>
 </segment>
@@ -1223,13 +1129,6 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <pinref part="P1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="M1" gate="G$1" pin="D"/>
-<wire x1="177.8" y1="60.96" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="P1" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="FB" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="FB"/>
@@ -1283,10 +1182,10 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <junction x="53.34" y="147.32"/>
 </segment>
 <segment>
-<pinref part="M1" gate="G$1" pin="S"/>
-<wire x1="198.12" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="60.96" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="VIN2" gate="G$1" pin="VIN"/>
+<pinref part="P1" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L1" class="0">
@@ -1384,7 +1283,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
