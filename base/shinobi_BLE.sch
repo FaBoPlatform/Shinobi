@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3961,12 +3962,12 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <instance part="LED1" gate="G$1" x="15.24" y="68.58" rot="R270"/>
 <instance part="U$2" gate="G$1" x="177.8" y="109.22"/>
 <instance part="L1" gate="G$1" x="55.88" y="91.44" rot="R90"/>
-<instance part="C2" gate="G$1" x="55.88" y="66.04" rot="R90"/>
+<instance part="C2" gate="G$1" x="55.88" y="63.5" rot="R90"/>
 <instance part="GND6" gate="1" x="55.88" y="55.88"/>
-<instance part="ANALOG" gate="G$1" x="114.3" y="152.4" rot="R270"/>
+<instance part="ANALOG" gate="G$1" x="114.3" y="154.94" rot="R270"/>
 <instance part="+3V2" gate="G$1" x="96.52" y="149.86"/>
 <instance part="GND8" gate="1" x="109.22" y="137.16"/>
-<instance part="I2C" gate="G$1" x="93.98" y="76.2"/>
+<instance part="I2C" gate="G$1" x="91.44" y="76.2"/>
 <instance part="GND9" gate="1" x="106.68" y="66.04"/>
 <instance part="+3V5" gate="G$1" x="109.22" y="78.74"/>
 <instance part="SERIAL" gate="G$1" x="142.24" y="35.56" rot="R270"/>
@@ -3975,7 +3976,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <instance part="+3V7" gate="G$1" x="91.44" y="162.56"/>
 <instance part="BAT" gate="G$1" x="63.5" y="142.24"/>
 <instance part="UF1" gate="G$1" x="238.76" y="160.02"/>
-<instance part="C1" gate="G$1" x="200.66" y="149.86" rot="R90"/>
+<instance part="C1" gate="G$1" x="200.66" y="152.4" rot="R90"/>
 <instance part="C3" gate="G$1" x="218.44" y="149.86" rot="R90"/>
 <instance part="GND10" gate="1" x="200.66" y="142.24"/>
 <instance part="GND14" gate="1" x="218.44" y="142.24"/>
@@ -3985,7 +3986,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <instance part="R4" gate="G$1" x="116.84" y="91.44" rot="R90"/>
 <instance part="+3V3" gate="G$1" x="104.14" y="101.6"/>
 <instance part="+3V8" gate="G$1" x="116.84" y="101.6"/>
-<instance part="L2" gate="G$1" x="55.88" y="78.74" rot="R90"/>
+<instance part="L2" gate="G$1" x="55.88" y="81.28" rot="R90"/>
 <instance part="C7" gate="G$1" x="91.44" y="137.16" rot="R90"/>
 <instance part="GND15" gate="1" x="91.44" y="127"/>
 </instances>
@@ -4072,16 +4073,16 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="58.42" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="ANALOG" gate="G$1" pin="GND"/>
-<wire x1="109.22" y1="139.7" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="139.7" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="GND"/>
-<wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -4092,7 +4093,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="144.78" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="144.78" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -4134,14 +4135,14 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </segment>
 <segment>
 <pinref part="ANALOG" gate="G$1" pin="VCC"/>
-<wire x1="114.3" y1="144.78" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="147.32" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="114.3" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="132.08" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="VCC"/>
-<wire x1="101.6" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="73.66" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
@@ -4211,7 +4212,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </segment>
 <segment>
 <pinref part="ANALOG" gate="G$1" pin="I/O"/>
-<wire x1="119.38" y1="144.78" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="147.32" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <label x="119.38" y="129.54" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
@@ -4272,7 +4273,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <label x="195.58" y="162.56" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0.10" class="0">
@@ -4345,7 +4346,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="SDA"/>
-<wire x1="101.6" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <label x="124.46" y="78.74" size="1.778" layer="95" rot="R90"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
@@ -4360,7 +4361,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </segment>
 <segment>
 <pinref part="I2C" gate="G$1" pin="SCL"/>
-<wire x1="101.6" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="111.76" y="83.82" size="1.778" layer="95" rot="R90"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
@@ -4487,9 +4488,9 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <wire x1="55.88" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
 <label x="66.04" y="73.66" size="1.778" layer="95"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="76.2" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="78.74" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <junction x="55.88" y="73.66"/>
-<wire x1="55.88" y1="73.66" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="73.66" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4508,7 +4509,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="88.9" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="88.9" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -4518,11 +4519,6 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <pinref part="U$4" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="68.58" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
@@ -4530,7 +4526,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
