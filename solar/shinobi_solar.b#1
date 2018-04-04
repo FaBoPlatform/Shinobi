@@ -151,7 +151,7 @@
 <text x="37.4" y="21.5" size="1.016" layer="21">LiPo</text>
 <text x="0.3" y="14.3" size="1.016" layer="21">SOLAR</text>
 <text x="15.4" y="31.9" size="1.016" layer="21" rot="R90">SYS</text>
-<text x="29" y="26.84" size="0.6096" layer="21">Rev. 1.0.1 C</text>
+<text x="29" y="26.84" size="0.6096" layer="21">Rev. 1.0.1</text>
 </plain>
 <libraries>
 <library name="FaBo-Capacitor">

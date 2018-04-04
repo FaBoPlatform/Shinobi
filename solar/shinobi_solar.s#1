@@ -8648,7 +8648,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <plain>
 <text x="40.64" y="127" size="1.27" layer="94">MBR120VLSFT1G</text>
 <text x="205.74" y="43.18" size="1.27" layer="94" rot="R90">NXFT15XH103FA2B050</text>
-<text x="243.84" y="20.32" size="2.1844" layer="94">1.0.1 C</text>
+<text x="243.84" y="20.32" size="2.1844" layer="94">1.0.1</text>
 </plain>
 <instances>
 <instance part="M1" gate="G$1" x="154.94" y="63.5"/>
