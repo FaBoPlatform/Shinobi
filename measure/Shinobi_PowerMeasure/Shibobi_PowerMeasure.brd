@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.7.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -144,10 +144,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="40.5" y2="0" width="0" layer="20"/>
-<wire x1="40.5" y1="0" x2="40.5" y2="35" width="0" layer="20"/>
-<wire x1="40.5" y1="35" x2="0" y2="35" width="0" layer="20"/>
-<wire x1="0" y1="35" x2="0" y2="0" width="0" layer="20"/>
 <text x="26.789" y="30.353" size="0.8128" layer="21">PowerMeasure</text>
 <text x="26.789" y="32.512" size="1.778" layer="21">#7</text>
 <text x="23.622" y="20.574" size="0.6096" layer="21">Rev.1.0.0 A</text>
