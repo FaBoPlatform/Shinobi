@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -2475,9 +2475,6 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2616,7 +2613,7 @@ design rules under a new name.</description>
 <element name="LED3" library="FaBo-LED" package="0603" value="BLUE" x="2.921" y="7.747" rot="R180"/>
 <element name="R1" library="FaBo-Resistors" package="0603" value="4.7KΩ" x="22.098" y="2.921" rot="MR270"/>
 <element name="R10" library="FaBo-Resistors" package="0603" value="0Ω" x="10.541" y="28.575" rot="MR180"/>
-<element name="R11" library="FaBo-Resistors" package="0603" value="DNP" x="20.447" y="28.448" rot="MR180"/>
+<element name="R11" library="FaBo-Resistors" package="0603" value="0Ω" x="20.447" y="28.448" rot="MR180"/>
 <element name="R12" library="FaBo-Resistors" package="0603" value="1KΩ" x="2.286" y="11.176" rot="R270"/>
 <element name="R13" library="FaBo-Resistors" package="0603" value="4.7KΩ" x="21.082" y="17.653" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.5486" y="18.9484" size="0.8128" layer="26" font="vector" ratio="12" rot="MR0" align="bottom-center"/>
@@ -2632,11 +2629,11 @@ design rules under a new name.</description>
 </element>
 <element name="R16" library="FaBo-Resistors" package="0603" value="1Ω" x="3.429" y="16.764"/>
 <element name="R2" library="FaBo-Resistors" package="0603" value="1KΩ" x="8.636" y="17.526"/>
-<element name="R3" library="FaBo-Resistors" package="0603" value="300K" x="2.667" y="23.114" smashed="yes" rot="MR270">
+<element name="R3" library="FaBo-Resistors" package="0603" value="NC" x="2.667" y="23.114" smashed="yes" rot="MR270">
 <attribute name="NAME" x="2.0066" y="23.0378" size="0.8128" layer="26" font="vector" ratio="12" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="2.667" y="23.114" size="0.8128" layer="28" font="vector" ratio="12" rot="MR270" align="center"/>
 </element>
-<element name="R4" library="FaBo-Resistors" package="0603" value="150K" x="4.445" y="23.114" smashed="yes" rot="MR270">
+<element name="R4" library="FaBo-Resistors" package="0603" value="NC" x="4.445" y="23.114" smashed="yes" rot="MR270">
 <attribute name="NAME" x="5.8928" y="23.0886" size="0.8128" layer="26" font="vector" ratio="12" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="4.445" y="23.114" size="0.8128" layer="28" font="vector" ratio="12" rot="MR270" align="center"/>
 </element>
@@ -3625,13 +3622,6 @@ design rules under a new name.</description>
 <wire x1="11.176" y1="14.6284" x2="11.176" y2="15.8914" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
