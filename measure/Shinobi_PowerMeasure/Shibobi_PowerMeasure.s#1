@@ -3972,7 +3972,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="76.2" y="58.42" size="1.778" layer="94">ISO-BARRIER</text>
 <text x="43.18" y="120.65" size="1.778" layer="94">ISO-BARRIER</text>
 <text x="50.8" y="96.52" size="1.778" layer="94">MUN2111T1G</text>
-<text x="236.22" y="10.16" size="2.54" layer="94">1.0.0 B</text>
+<text x="236.22" y="10.16" size="2.54" layer="94">1.0.0 A</text>
 <text x="152.4" y="109.22" size="1.778" layer="97">The shunt resistance will be either</text>
 <text x="78.74" y="66.04" size="1.778" layer="97">One of the switches 1 to 4, one of 5 to 8 can be turned on.</text>
 <text x="185.42" y="114.3" size="1.778" layer="97">
