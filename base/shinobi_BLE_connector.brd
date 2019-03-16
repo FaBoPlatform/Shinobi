@@ -160,7 +160,7 @@
 <plain>
 <text x="26.5" y="30.6" size="1.27" layer="21">Shinobi</text>
 <text x="26.7" y="27.4" size="0.6096" layer="21">Rev 1.0.0</text>
-<text x="30.1" y="18.9" size="2.54" layer="21">#4</text>
+<text x="30.1" y="18.9" size="2.54" layer="21">#6</text>
 <text x="26.5" y="29" size="1.27" layer="21">NRF_CON</text>
 <text x="12.8" y="0.9" size="1" layer="21" rot="R90">GND</text>
 <text x="15.2" y="0.9" size="1" layer="21" rot="R90">VCC</text>
