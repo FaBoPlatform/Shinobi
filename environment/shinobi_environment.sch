@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1677,31 +1678,88 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 <plain>
 </plain>
 <instances>
-<instance part="+3V4" gate="G$1" x="63.5" y="73.66"/>
-<instance part="GND10" gate="1" x="48.26" y="45.72"/>
-<instance part="U$1" gate="G$1" x="0" y="0"/>
-<instance part="I2C" gate="G$1" x="30.48" y="63.5"/>
-<instance part="B1" gate="G$1" x="53.34" y="116.84"/>
-<instance part="+3V1" gate="G$1" x="20.32" y="129.54"/>
-<instance part="C1" gate="G$1" x="20.32" y="99.06" rot="R90"/>
-<instance part="GND1" gate="1" x="20.32" y="91.44"/>
-<instance part="GND2" gate="1" x="25.4" y="111.76"/>
-<instance part="+3V2" gate="G$1" x="81.28" y="124.46"/>
-<instance part="GND3" gate="1" x="73.66" y="119.38"/>
-<instance part="GND4" gate="1" x="35.56" y="101.6"/>
-<instance part="IC3" gate="G$1" x="121.92" y="71.12"/>
-<instance part="C3" gate="G$1" x="101.6" y="48.26" rot="R90"/>
-<instance part="R4" gate="G$1" x="147.32" y="83.82" rot="R90"/>
-<instance part="+3V3" gate="G$1" x="101.6" y="96.52"/>
-<instance part="+3V5" gate="G$1" x="147.32" y="96.52"/>
-<instance part="GND5" gate="1" x="101.6" y="38.1"/>
-<instance part="GND6" gate="1" x="142.24" y="38.1"/>
-<instance part="IC1" gate="G$1" x="203.2" y="66.04"/>
-<instance part="R1" gate="G$1" x="175.26" y="81.28" rot="R90"/>
-<instance part="C2" gate="G$1" x="175.26" y="58.42" rot="R90"/>
-<instance part="+3V6" gate="G$1" x="175.26" y="99.06"/>
-<instance part="GND7" gate="1" x="175.26" y="45.72"/>
-<instance part="GND8" gate="1" x="185.42" y="45.72"/>
+<instance part="+3V4" gate="G$1" x="63.5" y="73.66" smashed="yes">
+<attribute name="VALUE" x="60.96" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND10" gate="1" x="48.26" y="45.72" smashed="yes">
+<attribute name="VALUE" x="45.72" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="175.26" y="24.13" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="172.72" y="20.32" size="1.778" layer="94" align="center-left"/>
+<attribute name="SHEET" x="223.52" y="20.32" size="1.778" layer="94" align="center-left"/>
+</instance>
+<instance part="I2C" gate="G$1" x="30.48" y="63.5" smashed="yes">
+<attribute name="NAME" x="22.86" y="74.168" size="1.778" layer="95"/>
+</instance>
+<instance part="B1" gate="G$1" x="53.34" y="116.84" smashed="yes">
+<attribute name="NAME" x="49.53" y="122.428" size="1.27" layer="95"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="20.32" y="129.54" smashed="yes">
+<attribute name="VALUE" x="17.78" y="124.46" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C1" gate="G$1" x="20.32" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.034" y="96.774" size="1.4224" layer="95" rot="R90"/>
+<attribute name="VALUE" x="22.606" y="96.774" size="1.4224" layer="96" rot="R90" align="top-left"/>
+</instance>
+<instance part="GND1" gate="1" x="20.32" y="91.44" smashed="yes">
+<attribute name="VALUE" x="17.78" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="25.4" y="111.76" smashed="yes">
+<attribute name="VALUE" x="22.86" y="109.22" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="81.28" y="124.46" smashed="yes">
+<attribute name="VALUE" x="78.74" y="119.38" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND3" gate="1" x="73.66" y="119.38" smashed="yes">
+<attribute name="VALUE" x="71.12" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="35.56" y="101.6" smashed="yes">
+<attribute name="VALUE" x="33.02" y="99.06" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="G$1" x="121.92" y="71.12" smashed="yes">
+<attribute name="NAME" x="111.76" y="84.328" size="1.27" layer="95"/>
+</instance>
+<instance part="C3" gate="G$1" x="101.6" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="99.314" y="45.974" size="1.4224" layer="95" rot="R90"/>
+<attribute name="VALUE" x="103.886" y="45.974" size="1.4224" layer="96" rot="R90" align="top-left"/>
+</instance>
+<instance part="R4" gate="G$1" x="147.32" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.796" y="81.534" size="1.4224" layer="95" rot="R90"/>
+<attribute name="VALUE" x="148.844" y="81.534" size="1.4224" layer="96" rot="R90" align="top-left"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="101.6" y="96.52" smashed="yes">
+<attribute name="VALUE" x="99.06" y="91.44" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="147.32" y="96.52" smashed="yes">
+<attribute name="VALUE" x="144.78" y="91.44" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND5" gate="1" x="101.6" y="38.1" smashed="yes">
+<attribute name="VALUE" x="99.06" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="142.24" y="38.1" smashed="yes">
+<attribute name="VALUE" x="139.7" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="G$1" x="203.2" y="66.04" smashed="yes">
+<attribute name="NAME" x="195.834" y="74.168" size="1.778" layer="95"/>
+</instance>
+<instance part="R1" gate="G$1" x="175.26" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="173.736" y="78.994" size="1.4224" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.784" y="78.994" size="1.4224" layer="96" rot="R90" align="top-left"/>
+</instance>
+<instance part="C2" gate="G$1" x="175.26" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="172.974" y="56.134" size="1.4224" layer="95" rot="R90"/>
+<attribute name="VALUE" x="177.546" y="56.134" size="1.4224" layer="96" rot="R90" align="top-left"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="175.26" y="99.06" smashed="yes">
+<attribute name="VALUE" x="172.72" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND7" gate="1" x="175.26" y="45.72" smashed="yes">
+<attribute name="VALUE" x="172.72" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="185.42" y="45.72" smashed="yes">
+<attribute name="VALUE" x="182.88" y="43.18" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1881,7 +1939,7 @@ https://creativecommons.org/licenses/by-sa/4.0/</description>
 </drawing>
 <compatibility>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
